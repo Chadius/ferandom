@@ -1,1 +1,57 @@
+* Scrap>
+Fire Emblem Randomizer
+Page 1: Insert ROM
+* Insert ROM
+** Open ROM
+Button, opens a file dialog to access the ROM.
+Once it's loaded, the main tab will have a banner showing the game file.
+** Apply changes
+Button that opens a save dialog.
+Based on the file name, generate another save dialog to save the changes.
+* Randomize Units
+** Randomize Player Units
+*** How to randomize unit classes?
+**** Random Class
+Each unit rolls for random classes.
+**** Class Shuffle
+Same number of each class as vanilla
+***** Allow crossgender
+Toggle, default False
+If True, male units can be female classes.
+***** Prepromotes stay Prepromotes
+Toggle, default True
+If False, I'll have to class down.
+***** Shuffle Unique Units
+****** Lord (Lyn)
+Toggle, default True
+****** Lord (Eliwood)
+Toggle, default True
+****** Lord (Hector)
+Toggle, default True
+****** Dancer
+Toggle, default True
+****** Bard
+Toggle, default True
+****** Archsage
+Toggle, default True
+***** Randomize Affinity
+Toggle, default False
+*** Randomize Starting Equipment
+**** Radio button
+Rank appropriate
+Vanilla
+Random equippable
+**** Include long range weapons
+Toggle, defaults to False
+** Randomize Boss Units
+* Testing
+** Make a fictional game, Heart of Fire
 Test module - Heart of Fire
+** Add a 100% growth rate option
+So you don't have to deal with low stat units when you playthrough.
+It will be easier to debug.
+* Licensing
+** What license will you use?
+License? MIT/Apache probably
+** Can I copy anything from the old randomizer?
+Ask randomizer for rights to use game data
