@@ -3,7 +3,8 @@
 This application was developed in Python 3.6
 
 ## Virtual Environment
-python3 -m virtualenv --system-site-packages .
+python3 -m virtualenv .
+(python3 -m virtualenv --system-site-packages .)
 
 ## kivy
 https://kivy.org/docs/guide/basic.html
