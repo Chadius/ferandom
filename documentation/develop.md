@@ -2,14 +2,17 @@
 ## Python 3.6
 This application was developed in Python 3.6
 
-## PyGTK
-You'll need to install PyGTK.
+## Virtual Environment
+python3 -m virtualenv --system-site-packages .
 
-### Windows (TODO)
-Open your bash shell and type "pip install pygtk" on your command line to install it.
+## pyGObject
+You'll need to install PyGObject.
+
+These site will have the most up-to-date instructions on installation.
+
+http://pygobject.readthedocs.io/en/latest/getting_started.html
 
 ### Mac
-You can use Homebrew and type "brew install pygtk"
+I had to run these commands afterward to install inside my virtual environment:
 
-### Linux
-Most distributions come with PyGTK or PyObject, so you should be good to go.
+pip install pgi

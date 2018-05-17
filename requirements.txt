@@ -1,0 +1,17 @@
+certifi==2018.4.16
+chardet==3.0.4
+django-background-tasks==1.1.11
+django-compat==1.0.14
+EasyProcess==0.2.3
+funcsigs==1.0.2
+idna==2.6
+mock==2.0.0
+pbr==4.0.3
+pgi==0.0.11.1
+PyVirtualDisplay==0.2.1
+PyYAML==3.12
+requests==2.18.4
+six==1.10.0
+urllib3==1.22
+virtualenv==15.0.3
+xvfbwrapper==0.2.9
